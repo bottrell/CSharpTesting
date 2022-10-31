@@ -84,6 +84,7 @@ namespace CsharpTesting
 
     public class ValueVsReferenceTypes {
         // C# types fall into the following categories: value, reference, generic, and pointer
+        
         public void ValueTypes() {
             //value types - simply a value. The assignment of a value-type instance always copies the instance
             const char myChar = 'J';
@@ -102,11 +103,13 @@ namespace CsharpTesting
 
         }
 
+
+        class myClass{};
         public void ReferenceTypes() {
             // Reference Types (all class, array, delegate, and interface types)
             // Reference Types have an object and a reference. The content of a reference type is a reference to the object
             string myString = "asdf";
-            class myClass{};
+
 
             //Comparison with reference types:
                 // By default is based on reference, as opposed to actual value of the underlying object
@@ -115,8 +118,8 @@ namespace CsharpTesting
             Console.WriteLine(a == b); // would equal False
             myClass c = a;
             Console.WriteLine(a == c); //would equal true
-
         }
+        
         
 
         // Generic Type parameters
@@ -125,4 +128,5 @@ namespace CsharpTesting
 
     };
 
+    };
 }

@@ -1,25 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/c/Users/Jordan/Desktop/Projects/Test Projects/CsharpTesting/CsharpTesting.csproj": {}
+    "/Users/bottrell/Desktop/Projects/CSharpTesting/CsharpTesting.csproj": {}
   },
   "projects": {
-    "/mnt/c/Users/Jordan/Desktop/Projects/Test Projects/CsharpTesting/CsharpTesting.csproj": {
+    "/Users/bottrell/Desktop/Projects/CSharpTesting/CsharpTesting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/c/Users/Jordan/Desktop/Projects/Test Projects/CsharpTesting/CsharpTesting.csproj",
+        "projectUniqueName": "/Users/bottrell/Desktop/Projects/CSharpTesting/CsharpTesting.csproj",
         "projectName": "CsharpTesting",
-        "projectPath": "/mnt/c/Users/Jordan/Desktop/Projects/Test Projects/CsharpTesting/CsharpTesting.csproj",
-        "packagesPath": "/home/bottrell/.nuget/packages/",
-        "outputPath": "/mnt/c/Users/Jordan/Desktop/Projects/Test Projects/CsharpTesting/obj/",
+        "projectPath": "/Users/bottrell/Desktop/Projects/CSharpTesting/CsharpTesting.csproj",
+        "packagesPath": "/Users/bottrell/.nuget/packages/",
+        "outputPath": "/Users/bottrell/Desktop/Projects/CSharpTesting/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/bottrell/.nuget/NuGet/NuGet.Config"
+          "/Users/bottrell/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100-rc.2.22477.23/RuntimeIdentifierGraph.json"
         }
       }
     }
