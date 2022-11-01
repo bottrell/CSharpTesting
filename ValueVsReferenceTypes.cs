@@ -106,6 +106,9 @@ namespace CsharpTesting {
             // The Range type lets you assign a range explicitly 
             Range firstTwo = 0..2;
             Console.WriteLine(arr[firstTwo]);
+
+            // You can use ref variables to get references to reference types
+            ref int myIndex = ref arr[2]; // myIndex refers to arr[2] in memory
         }
 
         // Generic Type parameters

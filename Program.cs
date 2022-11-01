@@ -52,6 +52,11 @@ namespace CsharpTesting
             }
             Console.WriteLine("myStringBuilder Capacity: " + myStringBuilder.Capacity);
             Lambdas.testingLambdas();
+
+            Console.WriteLine("---------");
+            Random r = new Random();
+            var a = r.Next();
+            Console.WriteLine(a.GetType());
         }
 
     };
